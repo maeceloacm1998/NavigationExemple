@@ -1,9 +1,46 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import Input from '../components/Input';
+import FavoritosCard from '../components/FavoritosCard';
 
 export default function Search() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Página Buscar</Text>
+      <Input placeholder="Digite aqui o que precisa" />
+      <Text style={styles.text}>Resultados</Text>
+      <ScrollView style={{width: "100%"}}>
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />       
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+        <FavoritosCard favoriteName="Anaconda 2" />
+      </ScrollView>
     </View>
   );
 }
@@ -15,7 +52,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  text:{
+  text: {
     color: '#ffffff',
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginTop: 16
   }
 });

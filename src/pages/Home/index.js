@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, ScrollView, StatusBar, SafeAreaView, Platform} from 'react-native';
+import Card from '../components/Card';
 
 const statusBarHeight = StatusBar.currentHeight;
 
@@ -6,26 +7,16 @@ export default function Home() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
-        <View style={styles.content}>
-          <Text>Conteúdo</Text>
-        </View>
-
-        <View style={styles.content}>
-          <Text>Conteúdo</Text>
-        </View>
-
-        <View style={styles.content}>
-          <Text>Conteúdo</Text>
-        </View>
-
-        <View style={styles.content}>
-          <Text>Conteúdo</Text>
-        </View>
-
-        <View style={styles.content}>
-          <Text>Conteúdo</Text>
-        </View>      
-        
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
+        <Card name="Marcelo" idade="22" endereco="Rua dale dale"/>
       </ScrollView>
 
     </SafeAreaView>
